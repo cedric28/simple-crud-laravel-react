@@ -1,0 +1,137 @@
+.checkout-stepper {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+
+.checkout-details {
+    background-color: #f8f8f8;
+    margin: 0 0 50px;
+    padding: 50px;
+}
+
+.checkout-details-title {
+    border: 1px solid;
+    padding: 20px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.checkout-contents {
+	  border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.checkout-table td {
+    vertical-align: middle;
+    padding: 25px 0;
+}
+
+.checkout-product-image {
+    width: 150px;
+    height: 150px;
+}
+
+.checkout-product-name {
+
+}
+
+.checkout-product-refno {
+
+}
+
+.checkout-summary {
+  padding: 15px;
+  border: 1px solid;
+  margin: 15px 0;
+  background-color: #fff;
+}
+
+.checkout-summary-title {
+  font-weight: 500;
+  text-align: center;
+}
+
+.proceed-checkout-button {
+    background-color: #b17f59;
+    border-color: #b17f59;
+    border-radius: 0px;
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.continue-shopping-button {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  text-decoration: underline;
+  color: #b17f59;
+}
+
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+.panel-group {
+  padding-top: 50px;
+}
+.panel-default {
+  border-radius: 0;
+  border: none;
+  background: none;
+  margin-bottom: 0;
+  padding-bottom: 14px;
+}
+.panel-default > .panel-heading {
+  border: none;
+  background: none;
+  padding: 0;
+}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  border: none;
+  padding: 0 0 0 32px;
+}
+.panel-default h5 {
+  font: 300 19px "Open Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0 0 5px;
+}
+.panel-group .panel+.panel {
+  margin-top: 15px;
+}
+.panel-default .accordion-toggle:before {
+  content: "";
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  background: #e54a1a url(http://keenthemes.com/assets/bootsnipp/toggle-icons.png) no-repeat 6px 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  top: 4px;
+}
+.panel-default .collapsed:before {
+  background: #495764 url(http://keenthemes.com/assets/bootsnipp/toggle-icons.png) no-repeat 6px -148px;
+}
+.panel-default .panel-title:hover .collapsed:before {
+  background-color: #e54a1a;
+}
+.panel-default .accordion-toggle,
+.panel-default .accordion-toggle:focus,
+.panel-default .accordion-toggle:hover,
+.panel-default .accordion-toggle:active {
+  color: #1ea9e3;
+  text-decoration: none;
+}
+.panel-default .collapsed {
+  color: #5f6f7e;
+}
