@@ -41,7 +41,7 @@
         "@material-ui/lab": "^4.0.0-alpha.56",
         "babel-plugin-transform-class-properties": "^6.24.1",
         "joi-browser": "^13.4.0",
-        "moment": "^2.27.0",
+        "moment": "^2.29.4",
         "prop-types": "^15.7.2",
         "react-moment": "^0.9.7",
         "react-toastify": "^6.0.6"
